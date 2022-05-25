@@ -7,5 +7,5 @@ A google chrome extension for blocking troublesome ads.
 ## Future Plans:
 1. Update to manifest version 3 so this doesn't get deprecated
 2. Implement a script to scan through https://github.com/anudeepND/blacklist to update black listed sites
-3? Make it so extension manually scrapes through the blacklisted sites and updates automatically. Not sure if possible?
+3. Make it so extension manually scrapes through the blacklisted sites and updates automatically. Not sure if possible?
   
