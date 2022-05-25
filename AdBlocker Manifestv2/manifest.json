@@ -1,0 +1,17 @@
+{
+    "name": "AdBlocker on Manifestv2",
+    "version": "1.0",
+    "description": "An AdBlocker that I hope actually works.",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>",
+        "https://ajax.googleapis.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "/icons/AdBlock_16x16.png",
+        "32": "/icons/AdBlock_32x32.png",
+        "48": "/icons/AdBlock_48x48.png",
+        "128": "/icons/AdBlock_128x128.png"
+    },
+    "manifest_version": 2
+}
