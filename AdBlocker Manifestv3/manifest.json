@@ -1,0 +1,21 @@
+{
+    "name": "AdBlocker on Manifestv3",
+    "version": "1.1",
+    "manifest_version": 3,
+    "description": "An AdBlocker that I hope actually works.",
+    "permissions": ["declarativeNetRequest"],
+    "host_permissions": ["<all_urls>", "https://ajax.googleapis.com/*"],
+    "declarative_net_request": {
+        "rule_resources": [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules.json"
+        }]
+    },
+    "icons": {
+        "16": "/icons/AdBlock_16x16.png",
+        "32": "/icons/AdBlock_32x32.png",
+        "48": "/icons/AdBlock_48x48.png",
+        "128": "/icons/AdBlock_128x128.png"
+    }
+}
